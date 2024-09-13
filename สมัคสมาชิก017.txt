@@ -1,0 +1,2 @@
+<input name="name" type="text" size="30" maxlength="30">
+<input name="name" type="password" size="30" maxlength="30">
