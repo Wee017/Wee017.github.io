@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+width: 100%;
+border: 1px solid gray;
+}
+
+header, footer {
+padding: 1em;
+color: rgb(255, 255, 255);
+background-color: rgb(11, 43, 102);
+clear: left;
+text-align: center;
+}
+
+nav {
+float: left;
+max-width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul a {
+text-decoration: none;
+}
+
+article {
+
+    color: rgb(255, 255, 255);
+background-color: rgb(11, 95, 128);
+margin-left: 170px;
+border-left: 20px solid rgb(133, 228, 252);
+border-right: 20px solid rgb(133, 228, 252);
+border-top: 20px solid rgb(133, 228, 252);
+padding: 1em;
+overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    
+<header>
+    <center><img src= "B1.png"/></center>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">index</a></li><br>
+        <li><a href="อัตลักษณ์.html">อัตลักษณ์</a></li><br>
+        <li><a href="ปรัชญา.html">ปรัชญา</a></li><br>
+        <li><a href="นโยบาย.html">นโยบายของวิทยาลัย</a></li><br>
+        <li><a href="ทำเนียบ.html">ทำเนียบผู้บริหาร</a></li><br>
+        <li><a href="ผู้จัดทำ.html">ผู้จัดทำ</a></li><br>
+        <li><a href="ฟอร์ม.html">ฟอร์ม</a></li><br>
+        <li><a href="ใบความรู้.html">ใบความรู้</a></li><br>
+    </ul>
+    </nav>
+    <article>
+        <h1>แบบฟอร์มสำหรับสมัคสมาชิก</h1>
+        <h4>กรุณาอัปโหลดรูปภาพของคุณ</h4>
+        <input type="file" name="img"<br>
+        <h4>ชื่อ-สกุล</h4>
+        <input name="name" type="text" size="30" maxlength="30"><br>
+        
+        <h4>วัน/เดือน/ปีเกิด</h4>
+        <select name="วัน" size="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        </select>
+        <select name="เดือน" size="">
+            <option value="1">มกราคม</option>
+            <option value="2">กุมภาพันธ์</option>
+            <option value="3">มีนาคม</option>
+            <option value="4">เมษายน</option>
+            <option value="5">พฤษภาคม</option>
+            <option value="6">มิถุนายน</option>
+            <option value="7">กรกฎาคม</option>
+            <option value="8">สิงหาคม</option>
+            <option value="9">กันยายน</option>
+            <option value="10">ตุลาคม</option>
+            <option value="11">พฤศจิกายน</option>
+            <option value="12">ธันวาคม</option>
+        </select>
+            <select name="ปี" size="">
+                <option value="1">2567</option>
+                <option value="2">2566</option>
+                <option value="3">2565</option>
+                <option value="4">2564</option>
+                <option value="5">2563</option>
+                <option value="6">2562</option>
+                <option value="7">2561</option>
+                <option value="8">2560</option>
+                <option value="9">2559</option>
+                <option value="10">2558</option>
+                <option value="11">2557</option>
+                <option value="12">2556</option>
+                <option value="12">2555</option>
+                <option value="12">2554</option>
+                <option value="12">2553</option>
+                <option value="12">2552</option>
+                <option value="12">2551</option>
+                <option value="12">2550</option>
+            </select>
+                <h4>เพศ</h4>
+            <input type="radio" name="ชาย" value="">ชาย<br>
+            <input type="radio" name="หญิง" value="">หญิง<br>
+            <input type="radio" name="เพศทางเลือก" value="">เพศทางเลือก<br>
+            <input type="radio" name="อื่นๆ" value="">อื่นๆ<br>
+        
+            <h4>สถานะ</h4>
+            <input type="radio" name="โสด" value="">โสด<br>
+            <input type="radio" name="สมรส" value="">สมรส<br>
+            
+            <h4>ศาสนา</h4>
+            <select name="ศาสนา" size="">
+                <option value="1">พุทธ</option>
+                <option value="2">คริสต์</option>
+                <option value="3">อิสลาม</option>
+                <option value="4">ฮินดู</option>
+                <option value="4">อื่นๆ</option>
+            </select>
+                <h4>ที่อยู่</h4>
+            <textarea name="ที่อยู่" cols="50" rows="5"></textarea> <br>
+            
+            <h4>เบอร์ติดต่อ</h4>
+            <input name="เบอร์ติดต่อ" type="text" size="30" maxlength="30"><br>
+        <h4>E-mail</h4>
+        <input name="name" type="text" size="30" maxlength="30"><br>
+        <h4>password</h4>
+        <input name="name" type="password" size="30" maxlength="30"><br>
+        <br>
+        <br>
+        <input type="submit" name="ตกลง" value="ตกลง"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" name="ยกเลิก" value="ยกเลิก">
+    </article>
+    
+    
+    <footer>: วิทยาลัยเทคนิคสัตหีบ กม.160 193 หมู่ 3 ต.นาจอมเทียน อ.สัตหีบ จ.ชลบุรี 20250</footer>
+    
+    
+    </div>
+    </body>
+    </html>
